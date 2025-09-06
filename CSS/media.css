@@ -1,0 +1,144 @@
+
+@media (min-width:992px){
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: black;
+    position: relative;
+    &::after{
+        content:'';
+        width:50px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        top: 75%;
+        left:7%;
+    }
+}
+    .header{
+         h1{
+    &::after{
+        content: '|';
+        font-size: 3.75rem;
+    }
+    }
+    }
+    .w-lg-50{
+        width: 50% !important;
+    }
+    .w-lg-65{
+        width: 65% !important;
+    }
+     .w-lg-75{
+        width: 75% !important;
+    }
+     .w-lg-80{
+        width: 78% !important;
+    }
+    .one{
+
+        .container{
+            .left{
+                width: 80%;
+            
+            }
+            .right{
+                width: 80%;
+            }
+        }
+    }
+    .two{
+        .container{
+            .row{
+                position: relative;
+                bottom:30px;
+        figure{
+            position: relative;
+            .in-row1{
+                position:absolute;
+                top: 18%;
+            }
+            .card1{
+                position: absolute;
+                left: 20%;
+            }
+              .card3{
+                position: absolute;
+        right: 20%;
+            }
+    .card{
+        transform: scale(0.8,0.8);
+        p{
+            width: 80%;
+            margin-inline:auto ;
+        }
+    }
+}
+}
+    }
+}
+.three{
+    .item{
+        position: absolute;
+         width: 70%;
+    }
+    .item1{
+        position: absolute;
+        left: 25%;
+    }
+    .item3{
+        position: absolute;
+        right: 25%;
+    }
+}
+.five{
+    padding: 250px;
+}
+.six{
+     .item{
+        position: absolute;
+         width: 70%;
+         margin-left: 70px;
+    }
+    .item1{
+        position: absolute;
+        left: 25%;
+    }
+    .item3{
+        position: absolute;
+        right: 25%;
+    }
+}
+.seven{
+    .ayhaga{
+    position: relative;
+    left: 20%;
+} 
+.ayhaga1{
+    position:relative;
+    left: 10%;
+}
+  button.btn.btn-dark{
+        left: 130px;
+    }
+}
+}
+
+@media (min-width:1300px){
+     .container{
+             position: relative;
+            .left{
+                width: 55% !important;
+                position: absolute;
+                 left: 30%;
+            }
+}
+.seven{
+   .icon3{
+    position: absolute;
+    right:12%;
+   }
+     .icon1{
+     position: absolute;
+    left:15%;
+   } 
+}
+}
