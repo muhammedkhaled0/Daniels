@@ -197,7 +197,7 @@ p,h1,h2,h3,h4,h5,h6{
 .one{
     .left {
         img{
-            left: 20px;
+            left: 5px;
         }
   background-color:white;
 
@@ -591,4 +591,5 @@ footer{
         color: #748182;
         font-size: 12px;
     }
+
 }
